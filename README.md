@@ -1,0 +1,1 @@
+# SmartSpot_SmartSDK_Firmware
