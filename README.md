@@ -1,0 +1,1 @@
+Smart Spot SDK Firmware
