@@ -527,10 +527,6 @@ config.ngsi = {
                     type: 'boolean'
                 },
     {
-                    name: 'IPSODigitalOutputDigitalOutputState11',
-                    type: 'boolean'
-                },
-    {
                     name: 'NearWiFiDevicesRestrictdetectionwithRSSIthreshold',
                     type: 'integer'
                 },
@@ -545,11 +541,11 @@ config.ngsi = {
             ],
             active: [
     {
-                    name: 'temperature',
+                    name: 'IPSOTemperatureSensorValue',
                     type: 'float'
                 },
                 {
-                    name: 'humidity',
+                    name: 'IPSOHumiditySensorValue',
                     type: 'float'
                 },
                 {
@@ -597,11 +593,11 @@ config.ngsi = {
                     type: 'float'
                 },
                 {
-                    name: 'IPSOConcentrationSensorValue1', //CO
+                    name: 'IPSOConcentrationSensorValue1', //O3
        type: 'float'
                 },
                 {
-                    name: 'IPSOConcentrationSensorValue2', //O3
+                    name: 'IPSOConcentrationSensorValue2', //CO
                     type: 'float'
                 },
                 {
@@ -656,12 +652,12 @@ config.ngsi = {
             objectInstance:0,
             objectResource:5700
             },
-        'temperature': {
+        'IPSOTemperatureSensorValue': {
             objectType: 3303, 
             objectInstance: 1,
             objectResource: 5700
             },
-        'humidity': {
+        'IPSOHumiditySensorValue': {
             objectType: 3304,
             objectInstance: 1,
             objectResource: 5700
@@ -784,11 +780,6 @@ config.ngsi = {
         'IPSODigitalOutputDigitalOutputState10':{
             objectType:3201,
             objectInstance:10,
-            objectResource:5550
-            },
-        'IPSODigitalOutputDigitalOutputState11':{
-            objectType:3201,
-            objectInstance:11,
             objectResource:5550
             },
   'NearWiFiDevicesRestrictdetectionwithRSSIthreshold':{
